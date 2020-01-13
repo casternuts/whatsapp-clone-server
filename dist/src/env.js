@@ -6,3 +6,4 @@ exports.expiration = process.env.JWT_EXPIRATION_MS
     ? parseInt(process.env.JWT_EXPIRATION_MS)
     : 24 * 60 * 60 * 1000;
 exports.secret = process.env.JWT_SECRET || '70p53cr37';
+exports.resetDb = process.env.RESET_DB || false;

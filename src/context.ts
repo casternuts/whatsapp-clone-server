@@ -1,8 +1,3 @@
-import { PubSub } from 'apollo-server-express';
-import { User } from '../db';
-import { Response } from 'express';
-export type MyContext = {
-  pubsub: PubSub;
-  currentUser: User;
-  res: Response;
-};
+import { ModuleContext } from '@graphql-modules/core';
+
+export type MyContext = ModuleContext;

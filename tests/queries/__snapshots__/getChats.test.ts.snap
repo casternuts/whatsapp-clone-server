@@ -1,5 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Query.chat should fetch specified chat 1`] = `
+Object {
+  "chat": null,
+}
+`;
+
 exports[`Query.chats should fetch all chats 1`] = `
 Object {
   "chats": Array [

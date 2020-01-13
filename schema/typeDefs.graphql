@@ -46,4 +46,5 @@ type Subscription {
   messageAdded: Message!
    chatAdded: Chat!
    chatRemoved: ID!
+   
 }
